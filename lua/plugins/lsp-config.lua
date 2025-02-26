@@ -23,6 +23,9 @@ return {
 			lspconfig.lua_ls.setup({
 				capabilities = capabilities,
 			})
+            lspconfig.cssls.setup({
+                capabilities = capabilities,
+            })
 --            lspconfig.jdtls.setup({
 --                capabilities = capabilities,
 --            })
